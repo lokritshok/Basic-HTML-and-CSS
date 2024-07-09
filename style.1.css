@@ -1,4 +1,14 @@
-     .style *{margin: 0, padding: 0}
-      *banner{position: relative; width: 90%; margin: 0 auto;}
-      *banner img{width: 100%;}
-      *heading {color: blue; position: absolute; top: 50%; width: 100%; text-align: center; font-size: 3rem; text-shadow: 5px 5px 10px}
+.gallery 
+       {display:inline-block;}
+	   
+       {border: 1px solid hsl(0,0%,60%);
+	   margin: 5px;
+	   width: 200px
+	   }
+.gallery . description
+       {padding: 10px;
+       text-align: center;}
+.gallery:hover{ border: 1px solid hsl(0,0%,20%);}
+. gallery img{
+	   width: 100%;
+	   height: auto;
